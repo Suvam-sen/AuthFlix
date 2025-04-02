@@ -58,7 +58,7 @@ const SearchPage = () => {
         <input
           type="text"
           placeholder="Search here..."
-          onChange={(e) => navigate(`/search?q=${e.target.value}`)}
+          onChange={(e) => navigate(`/dashboard/search?q=${e.target.value}`)}
           value={query?.split("%20")?.join(" ")}
           className="px-4 py-1 text-lg w-full bg-white rounded-full text-neutral-900 "
         />

@@ -19,13 +19,13 @@ const navigation = [
 const mobileNavigation = [
   {
     label: "Home",
-    href: "/",
+    href: "/dashboard",
     icon: <MdHomeFilled />,
   },
   ...navigation,
   {
     label: "search",
-    href: "/search",
+    href: "/dashboard/search",
     icon: <IoSearchOutline />,
   },
 ];
