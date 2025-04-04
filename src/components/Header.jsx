@@ -80,7 +80,7 @@ const Header = () => {
               onChange={(e) => setSearchInput(e.target.value)}
               value={searchInput}
             />
-            <button className="text-2xl text-white hover:text-gray-300">
+            <button className="text-2xl text-white hover:text-gray-300 cursor-pointer">
               <IoSearchOutline />
             </button>
           </form>

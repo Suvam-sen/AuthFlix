@@ -9,7 +9,7 @@ const ErrorPage = () => {
         The page you are looking for might have been removed or is temporarily unavailable.
       </p>
       <Link 
-        to="/" 
+        to="/dashboard" 
         className="px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-full text-lg font-semibold transition-all"
       >
         Go Back Home

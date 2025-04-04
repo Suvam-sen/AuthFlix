@@ -15,7 +15,6 @@ const App = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const location = useLocation();
-  const user = useSelector((state) => state.user); // Get user state from Redux
 
   // ✅ Check user authentication
   useEffect(() => {
@@ -28,10 +27,10 @@ const App = () => {
             displayName: user.displayName,
           })
         );
-        navigate("/dashboard"); // Redirect to dashboard if logged in
+        navigate("/dashboard");
       } else {
         dispatch(removeUser());
-        navigate("/"); // Redirect to login if not authenticated
+        navigate("/");
       }
     });
 

@@ -83,7 +83,7 @@ const DetailsPage = () => {
           {/* Play Button */}
           <button
             onClick={() => handlePlayVideo(data)}
-            className="mt-3 w-full py-2 px-4 text-center bg-white text-black rounded font-bold text-lg hover:bg-gradient-to-l from-red-500 to-orange-500 hover:scale-105 transition-all"
+            className="mt-3 w-full py-2 px-4 text-center bg-white text-black rounded font-bold text-lg hover:bg-gradient-to-l from-red-500 to-orange-500 hover:scale-105 transition-all cursor-pointer"
           >
             Play Now
           </button>
